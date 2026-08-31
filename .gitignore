@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+.env
+
+# Carpetas de medios pesados (Ignoramos el contenido, pero mantenemos la estructura)
+media_input/*
+media_output/*
+!media_input/.gitkeep
+!media_output/.gitkeep
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Configuración de sistema operativo
+.DS_Store
+Thumbs.db
